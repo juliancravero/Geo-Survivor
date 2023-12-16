@@ -14,6 +14,7 @@ public class Rombomove : MonoBehaviour
     public float firerate = 0.25f;
     public int Experiencia;
     public const int MaxExperience = 100; 
+    public static bool Vulnerable = true;
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();

@@ -20,11 +20,11 @@ public class Ataque : MonoBehaviour
 
     private void Update()
     {
-        if(!target){
+       /* if(!target){
             GetTarget();
         } else {
             RotateTowardsTarget();
-        }
+        }*/
     }
 
     private void FixedUpdate(){
@@ -49,7 +49,7 @@ public class Ataque : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D other){
-        if(other.gameObject.CompareTag("Player")){
+        if(other.gameObject.CompareTag("Player") && Rombomove.Vulnerable){
             Destroy(other.gameObject);
             target = null;
         } 
