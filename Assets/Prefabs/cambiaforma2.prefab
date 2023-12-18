@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: -2567278932741441242}
   - component: {fileID: 8835701451327152791}
   - component: {fileID: -6199074328822904472}
+  - component: {fileID: -8258544599080273396}
   m_Layer: 0
   m_Name: cambiaforma2
   m_TagString: Enemigos
@@ -583,4 +584,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36e402240d4c15346b3779f4d8a3a89e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  traget: {fileID: 6001863993373176533, guid: 8ee6ef39d1ae83648aff05d3ba18daf5, type: 3}
+--- !u!114 &-8258544599080273396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3812784298915477967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da255b4723d145b4696b005d127dc1f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jugador: {fileID: 6001863993373176533, guid: 8ee6ef39d1ae83648aff05d3ba18daf5, type: 3}
+  enemigo: {fileID: 3812784298915477960}
+  velocidadMaxima: 5
+  distanciaDisparo: 10

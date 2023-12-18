@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 402551555521298789}
   - component: {fileID: 6879922687922644644}
   - component: {fileID: -2666966725356197886}
+  - component: {fileID: 9048880659989792066}
   m_Layer: 0
   m_Name: rectangulo
   m_TagString: Enemigos
@@ -163,7 +164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36e402240d4c15346b3779f4d8a3a89e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  traget: {fileID: 6001863993373176533, guid: 8ee6ef39d1ae83648aff05d3ba18daf5, type: 3}
 --- !u!195 &-2666966725356197886
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -186,3 +186,19 @@ NavMeshAgent:
   m_BaseOffset: 0.285
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &9048880659989792066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402551555521298788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da255b4723d145b4696b005d127dc1f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jugador: {fileID: 6001863993373176533, guid: 8ee6ef39d1ae83648aff05d3ba18daf5, type: 3}
+  enemigo: {fileID: 402551555521298785}
+  velocidadMaxima: 5
+  distanciaDisparo: 10
